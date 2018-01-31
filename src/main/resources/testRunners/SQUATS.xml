@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="com.hs.listeners.CustomEmailableReport"/>
+    </listeners>
+    <test name="SQUATS">
+        <classes>
+            <class name="com.hs.poc.SQUATS"/>
+            <methods>
+                <include name="testCoaches" />
+            </methods>
+        </classes>
+    </test>
+
+</suite>
