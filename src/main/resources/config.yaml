@@ -1,0 +1,150 @@
+browser: mobile
+implicitTimeOut: 2
+explicitTimeOut: 30
+#testEnvironment: LOCAL
+testEnvironment: SAUCE
+appEnvironment: DEV
+#appEnvironment: ALPHA
+deviceType: IOS
+#deviceType: ANDROID
+sauceLabURL: https://Amit_Kumar-Kumar:813891dc-f31d-44cc-8e4c-80398a34a045@ondemand.saucelabs.com:443/wd/hub
+testObjectURL: https://us1.appium.testobject.com/wd/hub
+authorization: Bearer 59a3b924233eaa10411635f4d182a204bce64f615edc68ecb304bb82l
+
+androidLocalDev:
+    platformName: Android
+    appName: app-release.apk
+    BROWSER_NAME:
+    #deviceName: PREVIEW - Google Pixel - 8.0 - API 26 - 1080x1920
+    #deviceName: emulator-5554
+    deviceName: Google Nexus 6 - 7.0.0 - API 24 - 1440x2560
+#    platformVersion: 7.0
+    platformVersion: 6.0
+    appPackage: com.truemoveent.iservice.dev
+    appActivity: com.iservice.MainActivity
+
+iosLocalDev:
+    platformName: iosLocalDev
+    appName: iService.zip
+    BROWSER_NAME:
+    deviceName: iPhone 6
+    platformVersion: 10.3
+    deviceOrientation: portrait
+    #fullReset: true
+    #noReset: true
+    newCommandTimeout: 300
+    automationName: XCUITest
+    simpleIsVisibleCheck: true
+    preventWDAAttachments: true
+    #fix for slow loading in xcode 9
+    clearSystemFiles: true
+    wdaStartupRetryInterval: 1000
+    useNewWDA: true
+    waitForQuiescence: false
+    shouldUseSingletonTestManager: false
+
+iosSauceDev:
+    platformName: iosLocalDev
+    app: sauce-storage:iService-develop.zip
+    #appiumVersion: 1.6.5
+    BROWSER_NAME:
+    deviceName: iPhone 6
+    platformVersion: 10.3
+    deviceOrientation: portrait
+    #fullReset: true
+    #noReset: true
+    newCommandTimeout: 300
+    automationName: XCUITest
+    simpleIsVisibleCheck: true
+    preventWDAAttachments: true
+    #fix for slow loading in xcode 9
+    clearSystemFiles: true
+    wdaStartupRetryInterval: 1000
+    useNewWDA: true
+    waitForQuiescence: false
+    shouldUseSingletonTestManager: false
+
+androidSauceDev:
+    platformName: Android
+    #testobject_api_key: AA955491AA5B4977AE8AAE767AC6F18B
+    appiumVersion: 1.6.5
+    #deviceName: Motorola Moto E2
+    deviceName: Android GoogleAPI Emulator
+    deviceType: phone
+    #appiumVersion:
+    browserName:
+    deviceOrientation: portrait
+    #platformVersion: 8.0.0
+    platformVersion: 7.0
+    appPackage: com.truemoveent.iservice.dev
+    appActivity: com.iservice.MainActivity
+    app: sauce-storage:iService-develop.apk
+
+androidLocalAlpha:
+    platformName: Android
+    appName: app-release.apk
+    BROWSER_NAME:
+    #deviceName: PREVIEW - Google Pixel - 8.0 - API 26 - 1080x1920
+    #deviceName: emulator-5554
+    deviceName: Google Nexus 6 - 7.0.0 - API 24 - 1440x2560
+#    platformVersion: 7.0
+    platformVersion: 6.0
+    appPackage: com.truemoveent.iservice.alpha
+    appActivity: com.iservice.MainActivity
+
+iosLocalAlpha:
+    platformName: iosLocalDev
+    appName: iService.zip
+    BROWSER_NAME:
+    deviceName: iPhone 6
+    platformVersion: 10.3
+    deviceOrientation: portrait
+    #fullReset: true
+    #noReset: true
+    newCommandTimeout: 300
+    automationName: XCUITest
+    simpleIsVisibleCheck: true
+    preventWDAAttachments: true
+    #fix for slow loading in xcode 9
+    clearSystemFiles: true
+    wdaStartupRetryInterval: 1000
+    useNewWDA: true
+    waitForQuiescence: false
+    shouldUseSingletonTestManager: false
+
+iosSauceAlpha:
+    platformName: iosLocalDev
+    app: sauce-storage:iService-alpha-deploy.zip
+    #appiumVersion: 1.6.5
+    BROWSER_NAME:
+    deviceName: iPhone 6
+    platformVersion: 10.3
+    deviceOrientation: portrait
+    #fullReset: true
+    #noReset: true
+    newCommandTimeout: 300
+    automationName: XCUITest
+    simpleIsVisibleCheck: true
+    preventWDAAttachments: true
+    #fix for slow loading in xcode 9
+    clearSystemFiles: true
+    wdaStartupRetryInterval: 1000
+    useNewWDA: true
+    waitForQuiescence: false
+    shouldUseSingletonTestManager: false
+
+androidSauceAlpha:
+    platformName: Android
+    #testobject_api_key: AA955491AA5B4977AE8AAE767AC6F18B
+    appiumVersion: 1.6.5
+    #deviceName: Motorola Moto E2
+    deviceName: Android GoogleAPI Emulator
+    deviceType: phone
+    #appiumVersion:
+    browserName:
+    deviceOrientation: portrait
+    #platformVersion: 8.0.0
+    platformVersion: 7.0
+    appPackage: com.truemoveent.iservice.alpha
+    appActivity: com.iservice.MainActivity
+    app: sauce-storage:iService-alpha-deploy.apk

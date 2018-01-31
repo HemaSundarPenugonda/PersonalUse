@@ -1,0 +1,26 @@
+{
+  "getOrchestratedProductList": {
+    "pageSize": "10",
+    "pageNumber": "1",
+    "searchList": {
+      "searchInfoArray": [
+        {
+          "type": "PRIMRESOURCEVAL",
+          "value": "${number}"
+        },
+        {
+          "type": "BUSINESSLINE",
+          "value": "MOBILE"
+        },
+        {
+          "type": "SUBSTATUS",
+          "value": "ACTIVEORSUSPEND"
+        },
+        {
+          "type": "REALTHAIID",
+          "value": "N"
+        }
+      ]
+    }
+  }
+}

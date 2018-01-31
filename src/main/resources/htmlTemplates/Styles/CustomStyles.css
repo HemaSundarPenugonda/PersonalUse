@@ -1,0 +1,92 @@
+table {
+    margin-bottom: 10px;
+    border-collapse: collapse;
+    empty-cells: show
+}
+
+th, td {
+    border: 1px solid #009;
+    padding: .25em .5em
+}
+
+th {
+    vertical-align: bottom
+}
+
+.methodresult td {
+    vertical-align: top;
+    max-width: 100%;
+    white-space: nowrap;
+    padding: 2px;
+}
+
+table a {
+    font-weight: bold
+}
+
+.passedTest {
+    background-color: #D0F3B1
+}
+
+.failedTest {
+    background-color: #F9BEBD
+}
+
+.skippedTest {
+    background-color: #DDD
+    /*background-color: #CCC*/
+}
+
+div.popupText {
+    padding: 0px 0px 5px 10px;
+}
+
+.popUp {
+    width: 1000px;
+}
+
+.summaryTable td {
+    font-weight: bold;
+    padding: 3px;
+}
+
+.summaryTable {
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+.tableHeader1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.tableHeader2 {
+    text-align: center;
+    padding: 5px;
+}
+
+.testdata {
+    font-weight: bold;
+    color: #524DDE;
+}
+
+.summaryKey, .summary p span:nth-child(1) {
+    display: inline-block;
+    width: 300px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.summaryKey, .summary p span:nth-child(2) {
+    color: #524DDE;
+}
+
+.summaryValue {
+
+}
+
+.TestTagStatus {
+    text-align: right;
+}

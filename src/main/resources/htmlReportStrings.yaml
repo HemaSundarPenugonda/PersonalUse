@@ -1,0 +1,33 @@
+testTagName: ${TestName}
+testTagTimeTaken: ${TimeTakenForTest}
+testTagStatus: ${TestStatus}
+testTagUniqueName: ${UniqueTestTagName}
+
+totalSuiteSummary: <!--total test result-->
+testMethodResultRow: <!--test result-->
+
+testMethodSno: ${Sno}
+testMethodPackageName: ${PackageName}
+testMethodClassName: ${ClassName}
+testMethodMethodName: ${MethodName}
+testMethodStartTime: ${StartTimeForMethod}
+testMethodTimeTaken: ${TimeTakenForMethod}
+testMethodStatusClass: ${StatusClass}
+testMethodStatus: ${Status}
+testMethodScreenShotLink: ${ScreenShotLink}
+testMethodLogs: ${ExceptionPopUp}
+
+summaryTotalTestMethods: ${TotalTestMethods}
+summaryTotalPassedtestMethods: ${TotalPassedtestMethods}
+summaryTotalFailedTestMethods: ${TotalFailedTestMethods}
+summaryTotalSkippedTestMethods: ${TotalSkippedTestMethods}
+summaryTotalPartialSuccessTestMethods: ${TotalPartialSuccessTestMethods}
+summaryTotalDurationSequential: ${TotalDurationSequential}
+summaryTotalDurationParallel: ${TotalDurationParallel}
+
+popupUniqueName: ${ClassName_MethodName}
+popupBodyText: ${PopUpBody}
+popupLinkName: ${PopUpLink}
+
+#CustomReport2
+testTagResult: <!--test tag result-->

@@ -1,0 +1,167 @@
+admin:
+    userName: apurvajain2393@gmail.com
+    passWord: 11111111
+    thaiID:
+    description: default user
+
+editor:
+    userName: editor@cleansheet.com
+    passWord: password
+    thaiID:
+    description: Login Not working
+
+superuser:
+    userName: super_user@cleansheet.com
+    passWord: password
+    thaiID:
+    description: Login Not working
+
+user1:
+    userName: 0968730312
+    passWord: 11111111
+    thaiID: 2364137415416
+    description: TMH PostPaid(0 balance)
+
+user2:
+    userName: 0968730313
+    passWord: 11111111
+    thaiID: 2364137415416
+    description: TMH PostPaid(0 balance)
+
+user3:
+    userName: 0957590128
+    passWord: 11111111
+    thaiID: 8239639739654
+    description: TMH Postpaid(with balance)
+
+user4:
+    userName: 0968730314
+    passWord: 11111111
+    thaiID: 4838766266543
+    description: TMH PostPaid(0 balance)
+
+user5:
+    userName: 0910393441
+    passWord: 11111111
+    thaiID: 4838766266543
+    description: PrePaid
+
+user6:
+    userName: 9101086216
+    passWord: 11111111
+    thaiID: 1447021154326
+    description: Login Not Working
+
+user7:
+    userName: 0090420222
+    passWord: 11111111
+    thaiID: 1447021154326
+    description: Login Not Working
+
+user9:
+    userName: 0909048030
+    passWord: 11111111
+    thaiID: 3752810085062
+    description: Login Not Working
+
+user10:
+    userName: 9600001901
+    passWord: 11111111
+    thaiID: 9643794627111
+    description: Login Not Working
+
+user11:
+    userName: 0090359855
+    passWord: 11111111
+    thaiID: 9643794627111
+    description: Login Not Working
+
+user12:
+    userName: 0830010448
+    passWord: 11111111
+    thaiID: 9643794627111
+    description: TMH PostPaid (0 balance)
+
+user13:
+    userName: 0866626411
+    passWord: 11111111
+    thaiID: 9643794627111
+    description: Need to check
+
+user14:
+    userName: 0090353244
+    passWord: 11111111
+    thaiID: 8239639739654
+    description: Login Not Working
+
+user15:
+    userName: 880041426I
+    passWord: 11111111
+    thaiID: 8239639739654
+    description: Login Not Working
+
+user16:
+    userName: 0847223735
+    passWord: 11111111
+    thaiID: 3036668110465
+    description: TMH Cancelled
+
+user17:
+    userName: 0909184684
+    passWord: 11111111
+    thaiID: 2900819238633
+    description: PrePaid (0 balance)
+
+user18:
+    userName: 0090409657
+    passWord: 11111111
+    thaiID: 3193478493190
+    description: Login Not Working
+
+user19:
+    userName: NF0041348I
+    passWord: 11111111
+    thaiID: 3193478493190
+    description: Login Not Working
+
+user20:
+    userName: 0816864236
+    passWord: 11111111
+    thaiID:
+    trueVision: 90409657
+
+user21:
+    userName: 0830010448
+    passWord: 11111111
+    thaiID:
+    trueVision:
+    trueOnline: 9600001901
+user22:
+    userName: 0968730878
+    passWord: 11111111
+    thaiID:
+    description: trueConvergence
+    trueConvergence:
+
+user23:
+    userName: 0916961014
+    passWord: 11111111
+    thaiID:
+    description: TMH post paid share plan
+
+user24:
+    userName: 0916961018
+    passWord: 11111111
+    thaiID:
+    description: Multi SIM
+
+user25:
+    userName: akshayakrsh@gmail.com
+    passWord: Pass@word1
+    thaiID:
+    description: Production DB (alpha), use `Z3489272` as the IdCard (Thai ID)
+#user:
+#    userName:
+#    passWord:
+#    thaiID:
+#    description:

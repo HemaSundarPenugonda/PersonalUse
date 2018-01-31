@@ -1,0 +1,6 @@
+{
+  "productId":"${msisdn}",
+  "productType":"TrueMoveH",
+  "subscriberId":"${subscriberId}",
+  "subscriptionType":"POSTPAID"
+}

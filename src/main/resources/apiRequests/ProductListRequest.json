@@ -1,0 +1,4 @@
+{
+  "msisdn": "${userName}",
+  "thaiID": "${thaiID}"
+}

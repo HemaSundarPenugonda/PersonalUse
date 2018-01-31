@@ -1,0 +1,34 @@
+{
+  "searchList": {
+    "searchInfoArray": [
+      {
+        "type": "PRIMRESOURCEVAL",
+        "value": "${number}"
+      },
+      {
+        "type": "BUSINESSLINE",
+        "value": "MOBILE"
+      },
+      {
+        "type": "CYCLECODE",
+        "value": "${date}"
+      },
+      {
+        "type": "CYCLEINSTANCE",
+        "value": "${month}"
+      },
+      {
+        "type": "CYCLEYEAR",
+        "value": "${year}"
+      },
+      {
+        "type": "PAGENUMBER",
+        "value": "1"
+      },
+      {
+        "type": "PAGESIZE",
+        "value": "3"
+      }
+    ]
+  }
+}

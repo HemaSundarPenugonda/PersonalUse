@@ -1,0 +1,14 @@
+{
+  "searchList": {
+    "searchInfoArray": [
+      {
+        "type": "BILLID",
+        "value": "${number}"
+      },
+      {
+        "type": "SHOWITEMIZE",
+        "value": "Y"
+      }
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "errorCode": "OSBbllngA00001",
+  "message": "Success.",
+  "uuid": "45b23767-bceb-48cf-a521-7801dc525b88",
+  "backendResponseList": {
+    "backendResponseInfoArray": [
+      {
+        "apiName": "getPrimaryKeyInfoByActiveAndBusinessLine",
+        "errorCode": "OSBbllngA00001",
+        "message": "Success.",
+        "system": "OSB",
+        "url": "http://172.19.204.85:8011/ESB_Get_CustomerPreferenceInfo/Interfaces/Proxy/CommonPreferenceInfoPS"
+      },
+      {
+        "apiName": "doService",
+        "errorCode": "OSBbllngA00001",
+        "message": "Success.",
+        "system": "SBM",
+        "url": "http://10.95.108.17/SBMWSREAL3G15/services/SBMWS"
+      },
+      {
+        "apiName": "getUnbilledCycleInfo",
+        "errorCode": "OSBbllngA00001",
+        "message": "Success.",
+        "system": "OSB",
+        "url": "http://172.19.204.85:8011/ESB_Get_FinancialManagementInfo/Interfaces/Proxy/BillingInfoPS"
+      },
+      {
+        "apiName": "getBundleInfoBySearchList",
+        "errorCode": "OSBbllngA00001",
+        "message": "Success.",
+        "system": "CCCSOA",
+        "url": "http://172.19.194.63:8480/RaterServiceWS/RaterServiceSI"
+      },
+      {
+        "apiName": "getOfferDetailList",
+        "errorCode": "OSBbllngA00001",
+        "message": "Success.",
+        "system": "OSB",
+        "url": "http://172.19.204.85:8011/ESB_Get_CustomerDataInfo/Interfaces/Proxy/OfferReferenceInfoPS"
+      }
+    ],
+    "size": 5
+  },
+  "billingBundleList": {
+    "billingBundleInfoArray": [
+      {
+        "cycleInfo": {
+          "code": 28,
+          "month": 9,
+          "year": 2018
+        },
+        "effectiveDate": "2018-08-28T00:00:00+07:00",
+        "expirationDate": "2049-12-31T00:00:00+07:00",
+        "initialQuota": "300.0",
+        "initialQuotaFormat": "05:00:00",
+        "lastCallDate": "2018-08-28T13:11:00+07:00",
+        "offer": {
+          "code": "1076279",
+          "engBillDescription": null,
+          "name": "BUNV1S32",
+          "socType": "U",
+          "thaiBillDescription": null
+        },
+        "offerInstance": 815780,
+        "remainingQuota": 225,
+        "remainingQuotaFormat": "03:45:00",
+        "roundedInitialQuota": null,
+        "roundedInitialQuotaFormat": null,
+        "serviceType": "Voice",
+        "uom": {
+          "code": "M",
+          "description": "Minutes"
+        },
+        "utilizedQuota": 75,
+        "utilizedQuotaFormat": "01:15:00"
+      },
+      {
+        "cycleInfo": {
+          "code": 28,
+          "month": 9,
+          "year": 2018
+        },
+        "effectiveDate": "2018-02-07T00:00:00+07:00",
+        "expirationDate": "2018-08-28T00:00:00+07:00",
+        "initialQuota": "200.0",
+        "initialQuotaFormat": "03:20:00",
+        "lastCallDate": {
+          "@nil": "true"
+        },
+        "offer": {
+          "code": "10667911",
+          "engBillDescription": null,
+          "name": "BUNV1S22",
+          "socType": "U",
+          "thaiBillDescription": null
+        },
+        "offerInstance": 699338,
+        "remainingQuota": 200,
+        "remainingQuotaFormat": "03:20:00",
+        "roundedInitialQuota": null,
+        "roundedInitialQuotaFormat": null,
+        "serviceType": "Voice",
+        "uom": {
+          "code": "M",
+          "description": "Minutes"
+        },
+        "utilizedQuota": 0,
+        "utilizedQuotaFormat": "00:00:00"
+      }
+    ],
+    "size": 2
+  },
+  "classify": "CCBS",
+  "sbmBundleList": {
+    "sbmBundleInfoArray": {
+      "bundleIndicator": null,
+      "chargeType": "V",
+      "customerType": "POS",
+      "fairUse": null,
+      "gprsCapMax": "1500",
+      "gprsChargeIndicator": null,
+      "language": "D",
+      "packageServiceList": null,
+      "poolServiceList": null,
+      "pricePlanName": "GSDATP76",
+      "priceplanServiceList": null,
+      "speed": null,
+      "statusCode": "A",
+      "steadyChargeType": null,
+      "steadySpeed": null
+    },
+    "size": 1
+  }
+}

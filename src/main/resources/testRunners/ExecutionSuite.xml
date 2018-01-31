@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="com.hs.listeners.CustomEmailableReport"/>
+    </listeners>
+    <test name="Login into iTrue Service Test">
+        <classes>
+            <class name="com.hs.tests.LoginTest"/>
+        </classes>
+    </test>
+
+<!--    <test name="Bill and Pay Test">
+        <classes>
+            <class name="com.hs.tests.BillAndPayTest"/>
+        </classes>
+    </test>-->
+</suite>

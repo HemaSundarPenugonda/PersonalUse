@@ -1,0 +1,14 @@
+{
+  "searchList": {
+    "searchInfoArray": [
+      {
+        "type": "PRIMRESOURCEVAL",
+        "value": "${number}"
+      },
+      {
+        "type": "BUSINESSLINE",
+        "value": "MOBILE"
+      }
+    ]
+  }
+}
