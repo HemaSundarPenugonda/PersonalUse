@@ -22,23 +22,24 @@ public class SQUATS {
     @Test
     public void testCoaches() throws InterruptedException {
 
-        System.setProperty("webdriver.chrome.driver", "/Users/hemasundar/xebia/projects/mck/iservice-app-automation/src/main/resources/chromedriver");
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/main/resources/drivers/chromedriver");
         ChromeOptions options = new ChromeOptions();
-        options.addExtensions(new File("/Users/hemasundar/Downloads/160by2.crx"));
+        options.addExtensions(new File(System.getProperty("user.dir") + "/src/main/resources/drivers/160by2.crx"));
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability(ChromeOptions.CAPABILITY, options);
         driver = new ChromeDriver(capabilities);
 
         wait = new WebDriverWait(driver, 10);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-String result = "";
+
+        String result = "";
         result = result + getCoachAvailability("https://www.squats.in/coach/96") + "\n";
         result = result + getCoachAvailability("https://www.squats.in/coach/2338") + "\n";
         result = result + getCoachAvailability("https://www.squats.in/coach/2303") + "\n";
         result = result + getCoachAvailability("https://www.squats.in/coach/580") + "\n";
         result = result + getCoachAvailability("https://www.squats.in/coach/794") + "\n";
         result = result + getCoachAvailability("https://www.squats.in/coach/2352") + "\n";
-        result = result + getCoachAvailability("https://www.squats.in/coach/2316")  + "\n";
+        result = result + getCoachAvailability("https://www.squats.in/coach/2316") + "\n";
         result = result + getCoachAvailability("https://www.squats.in/coach/453") + "\n";
 
         System.out.println(result);
@@ -59,7 +60,7 @@ String result = "";
         getVisibleElement(By.id("btnsendsms")).click();
 
         Thread.sleep(10000);
-        Assert.assertEquals(getVisibleElement(By.id("showLate")).getText(),"Your message has been sent !!!");
+        Assert.assertEquals(getVisibleElement(By.id("showLate")).getText(), "Your message has been sent !!!");
 
     }
 
@@ -82,6 +83,7 @@ String result = "";
 
         return name + ":" + slotsAvailable;
     }
+
     @AfterTest
     public void afterTest() {
         driver.quit();
